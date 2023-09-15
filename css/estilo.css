@@ -1,0 +1,14 @@
+body {
+  background-image: url("../imagenes/fondo.jpg");
+}
+label {
+  color: #1E3EDF;
+}
+
+.colorlabel {
+  color: #F1B413;
+}
+
+#idlabel {
+  color: #13F3DB;
+}

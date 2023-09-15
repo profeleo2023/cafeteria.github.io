@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+
+  <div class="alert alert-success">
+  <h1>Bienvenidos a programación Web</h1>
+  </div>
+
+<form action="html/bienvenida.html">
+
+  <img src="../imagenes/user.png" class="rounded" alt="Cinque Terre" width="150" height="150"><br>
+
+<label>Sr Usuario digite su Tipo de Documento</label><br>
+ <select name="tdoc">
+    <option value="CC">Cédula de Ciudadania</option>
+    <option value="CE">Cédula de Extranjeria</option>
+    <option value="TI">Tarjeta de Identidad</option>
+  </select><br>
+<label class="colorlabel">Identificación</label><strong>*</strong><br>
+<input type="number" placeholder="Sr Usuario digite su Id" required><br>
+<label>Sr Usuario digite su Primer Nombre</label><br>
+<input type="text" required><br>
+<label class="colorlabel">Sr Usuario digite su Segundo Nombre</label><br>
+<input type="text"><br>
+<label>Sr Usuario digite su Apellido</label><br>
+<input type="text" required><br>
+<label id="idlabel">Sr Usuario digite su Genero</label><br>
+<input type="radio" name="genero" checked>Masculino
+<input type="radio" name="genero">Femenino
+<input type="radio" name="genero">Otro<br>
+<label>Sr Usuario digite su Contraseña</label><br>
+<input type="password" name="">
+<input type="submit" class="btn btn-success" value="enviar">
+</form>
+</div>
+</body>
+</html>
